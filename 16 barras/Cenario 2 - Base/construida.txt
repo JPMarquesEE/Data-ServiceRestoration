@@ -1,0 +1,3 @@
+Name		civanlar_loadvar_16bus
+Scenario	restored
+Feasible?	0

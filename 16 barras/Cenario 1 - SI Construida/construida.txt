@@ -1,0 +1,335 @@
+Name		civanlar_16bus
+Scenario	restored
+Feasible?	1
+Obj. Function:	1003.69
+Non-supplied cost:	0
+Switch operations cost:	80
+Energy loss cost:	46.6298
+Penalty function:	877.064
+BEGIN	BUSES
+BEGIN	BUS 9
+Status	1
+Vmag
+	[0.945398]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-5]
+	Qdev
+		[-1.8]
+END	PQLOAD
+END	DEVICES
+END	BUS 9
+BEGIN	BUS 1
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	SOURCE
+	Status	0
+	Pdev
+		[-1.42109e-14]
+	Qdev
+		[0]
+END	SOURCE
+END	DEVICES
+END	BUS 1
+BEGIN	BUS 2
+Status	1
+Vmag
+	[1]
+BEGIN	DEVICES
+BEGIN	SOURCE
+	Status	1
+	Pdev
+		[24.8913]
+	Qdev
+		[7.44721]
+END	SOURCE
+END	DEVICES
+END	BUS 2
+BEGIN	BUS 3
+Status	1
+Vmag
+	[1]
+BEGIN	DEVICES
+BEGIN	SOURCE
+	Status	1
+	Pdev
+		[5.14098]
+	Qdev
+		[-0.055208]
+END	SOURCE
+END	DEVICES
+END	BUS 3
+BEGIN	BUS 4
+Status	1
+Vmag
+	[0.919009]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-2]
+	Qdev
+		[-1.6]
+END	PQLOAD
+END	DEVICES
+END	BUS 4
+BEGIN	BUS 5
+Status	1
+Vmag
+	[0.926729]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-3]
+	Qdev
+		[-0.4]
+END	PQLOAD
+END	DEVICES
+END	BUS 5
+BEGIN	BUS 6
+Status	1
+Vmag
+	[0.913961]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-2]
+	Qdev
+		[0.4]
+END	PQLOAD
+END	DEVICES
+END	BUS 6
+BEGIN	BUS 7
+Status	1
+Vmag
+	[0.912778]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-1.5]
+	Qdev
+		[-1.2]
+END	PQLOAD
+END	DEVICES
+END	BUS 7
+BEGIN	BUS 8
+Status	1
+Vmag
+	[0.964619]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-4]
+	Qdev
+		[-2.7]
+END	PQLOAD
+END	DEVICES
+END	BUS 8
+BEGIN	BUS 10
+Status	1
+Vmag
+	[0.962447]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[1]
+	Pdev
+		[-1]
+	Qdev
+		[-0.9]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 10
+BEGIN	BUS 11
+Status	1
+Vmag
+	[0.931665]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-0.6]
+	Qdev
+		[0.5]
+END	PQLOAD
+END	DEVICES
+END	BUS 11
+BEGIN	BUS 12
+Status	1
+Vmag
+	[0.94354]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-4.5]
+	Qdev
+		[1.7]
+END	PQLOAD
+END	DEVICES
+END	BUS 12
+BEGIN	BUS 13
+Status	1
+Vmag
+	[0.994422]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-1]
+	Qdev
+		[-0.9]
+END	PQLOAD
+END	DEVICES
+END	BUS 13
+BEGIN	BUS 14
+Status	1
+Vmag
+	[0.994945]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[1]
+	Pdev
+		[-1]
+	Qdev
+		[1.1]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 14
+BEGIN	BUS 15
+Status	1
+Vmag
+	[0.991801]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[1]
+	Pdev
+		[-1]
+	Qdev
+		[-0.9]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 15
+BEGIN	BUS 16
+Status	1
+Vmag
+	[0.991276]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-2.1]
+	Qdev
+		[0.8]
+END	PQLOAD
+END	DEVICES
+END	BUS 16
+END	BUSES
+BEGIN	BRANCHES
+BEGIN	BRANCH 9
+Imag
+	[20.1078]
+Device	SWLINE
+Status	1
+END	BRANCH 9
+BEGIN	BRANCH 1
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 1
+BEGIN	BRANCH 2
+Imag
+	[25.9815]
+Device	SWLINE
+Status	1
+END	BRANCH 2
+BEGIN	BRANCH 3
+Imag
+	[5.14127]
+Device	SWLINE
+Status	1
+END	BRANCH 3
+BEGIN	BRANCH 4
+Imag
+	[6.55823]
+Device	SWLINE
+Status	1
+END	BRANCH 4
+BEGIN	BRANCH 5
+Imag
+	[3.93057]
+Device	SWLINE
+Status	1
+END	BRANCH 5
+BEGIN	BRANCH 6
+Imag
+	[9.73435]
+Device	SWLINE
+Status	1
+END	BRANCH 6
+BEGIN	BRANCH 7
+Imag
+	[2.1045]
+Device	SWLINE
+Status	1
+END	BRANCH 7
+BEGIN	BRANCH 8
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 8
+BEGIN	BRANCH 10
+Imag
+	[1.39786]
+Device	SWLINE
+Status	1
+END	BRANCH 10
+BEGIN	BRANCH 11
+Imag
+	[10.1968]
+Device	SWLINE
+Status	1
+END	BRANCH 11
+BEGIN	BRANCH 12
+Imag
+	[5.09825]
+Device	SWLINE
+Status	1
+END	BRANCH 12
+BEGIN	BRANCH 13
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 13
+BEGIN	BRANCH 14
+Imag
+	[1.49416]
+Device	SWLINE
+Status	1
+END	BRANCH 14
+BEGIN	BRANCH 15
+Imag
+	[3.12939]
+Device	SWLINE
+Status	1
+END	BRANCH 15
+BEGIN	BRANCH 16
+Imag
+	[2.267]
+Device	SWLINE
+Status	1
+END	BRANCH 16
+END	BRANCHES
