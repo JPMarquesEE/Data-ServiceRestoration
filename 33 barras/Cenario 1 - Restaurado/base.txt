@@ -1,0 +1,702 @@
+Name		baranwu_33bus
+Scenario	elemental
+Feasible?	1
+Obj. Function:	678.863
+Non-supplied cost:	538.25
+Switch operations cost:	140
+Energy loss cost:	0.613082
+Penalty function:	3.75073e-07
+BEGIN	BUSES
+BEGIN	BUS 9
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 9
+BEGIN	BUS 1
+Status	1
+Vmag
+	[1]
+BEGIN	DEVICES
+BEGIN	SOURCE
+	Status	1
+	Pdev
+		[1.61752]
+	Qdev
+		[0.801821]
+END	SOURCE
+END	DEVICES
+END	BUS 1
+BEGIN	BUS 2
+Status	1
+Vmag
+	[0.998842]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-0.1]
+	Qdev
+		[-0.06]
+END	PQLOAD
+END	DEVICES
+END	BUS 2
+BEGIN	BUS 3
+Status	1
+Vmag
+	[0.994402]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[1]
+	Pdev
+		[-0.09]
+	Qdev
+		[-0.04]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 3
+BEGIN	BUS 4
+Status	1
+Vmag
+	[0.994028]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-0.12]
+	Qdev
+		[-0.08]
+END	PQLOAD
+END	DEVICES
+END	BUS 4
+BEGIN	BUS 5
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 5
+BEGIN	BUS 6
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 6
+BEGIN	BUS 7
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 7
+BEGIN	BUS 8
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 8
+BEGIN	BUS 10
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 10
+BEGIN	BUS 11
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 11
+BEGIN	BUS 12
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 12
+BEGIN	BUS 13
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 13
+BEGIN	BUS 14
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[0]
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 14
+BEGIN	BUS 15
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 15
+BEGIN	BUS 16
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 16
+BEGIN	BUS 17
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 17
+BEGIN	BUS 18
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 18
+BEGIN	BUS 19
+Status	1
+Vmag
+	[0.99832]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-0.09]
+	Qdev
+		[-0.04]
+END	PQLOAD
+END	DEVICES
+END	BUS 19
+BEGIN	BUS 20
+Status	1
+Vmag
+	[0.994752]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-0.09]
+	Qdev
+		[-0.04]
+END	PQLOAD
+END	DEVICES
+END	BUS 20
+BEGIN	BUS 21
+Status	1
+Vmag
+	[0.994048]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[1]
+	Pdev
+		[-0.09]
+	Qdev
+		[-0.04]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 21
+BEGIN	BUS 22
+Status	1
+Vmag
+	[0.99341]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-0.09]
+	Qdev
+		[-0.04]
+END	PQLOAD
+END	DEVICES
+END	BUS 22
+BEGIN	BUS 23
+Status	1
+Vmag
+	[0.990861]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-0.09]
+	Qdev
+		[-0.05]
+END	PQLOAD
+END	DEVICES
+END	BUS 23
+BEGIN	BUS 25
+Status	1
+Vmag
+	[0.980961]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	1
+	Pdev
+		[-0.42]
+	Qdev
+		[-0.2]
+END	PQLOAD
+END	DEVICES
+END	BUS 25
+BEGIN	BUS 24
+Status	1
+Vmag
+	[0.984256]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[1]
+	Pdev
+		[-0.42]
+	Qdev
+		[-0.2]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 24
+BEGIN	BUS 26
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 26
+BEGIN	BUS 27
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 27
+BEGIN	BUS 28
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 28
+BEGIN	BUS 29
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 29
+BEGIN	BUS 30
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[0]
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 30
+BEGIN	BUS 31
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 31
+BEGIN	BUS 32
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	PQLOAD
+	Status	0
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	PQLOAD
+END	DEVICES
+END	BUS 32
+BEGIN	BUS 33
+Status	0
+Vmag
+	[0]
+BEGIN	DEVICES
+BEGIN	SW_PQLOAD
+	Status
+		[0]
+	Pdev
+		[-0]
+	Qdev
+		[-0]
+END	SW_PQLOAD
+END	DEVICES
+END	BUS 33
+END	BUSES
+BEGIN	BRANCHES
+BEGIN	BRANCH 9
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 9
+BEGIN	BRANCH 1
+Imag
+	[1.80535]
+Device	SWLINE
+Status	1
+END	BRANCH 1
+BEGIN	BRANCH 2
+Imag
+	[1.29343]
+Device	SWLINE
+Status	1
+END	BRANCH 2
+BEGIN	BRANCH 3
+Imag
+	[0.145091]
+Device	SWLINE
+Status	1
+END	BRANCH 3
+BEGIN	BRANCH 4
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 4
+BEGIN	BRANCH 5
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 5
+BEGIN	BRANCH 6
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 6
+BEGIN	BRANCH 7
+Imag
+	[-0]
+Device	SWLINE
+Status	1
+END	BRANCH 7
+BEGIN	BRANCH 8
+Imag
+	[-0]
+Device	SWLINE
+Status	1
+END	BRANCH 8
+BEGIN	BRANCH 10
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 10
+BEGIN	BRANCH 11
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 11
+BEGIN	BRANCH 12
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 12
+BEGIN	BRANCH 13
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 13
+BEGIN	BRANCH 14
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 14
+BEGIN	BRANCH 15
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 15
+BEGIN	BRANCH 16
+Imag
+	[-0]
+Device	SWLINE
+Status	1
+END	BRANCH 16
+BEGIN	BRANCH 17
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 17
+BEGIN	BRANCH 18
+Imag
+	[0.395883]
+Device	SWLINE
+Status	1
+END	BRANCH 18
+BEGIN	BRANCH 19
+Imag
+	[0.297228]
+Device	SWLINE
+Status	1
+END	BRANCH 19
+BEGIN	BRANCH 20
+Imag
+	[0.198221]
+Device	SWLINE
+Status	1
+END	BRANCH 20
+BEGIN	BRANCH 21
+Imag
+	[0.0991434]
+Device	SWLINE
+Status	1
+END	BRANCH 21
+BEGIN	BRANCH 22
+Imag
+	[1.05058]
+Device	SWLINE
+Status	1
+END	BRANCH 22
+BEGIN	BRANCH 23
+Imag
+	[0.946846]
+Device	SWLINE
+Status	1
+END	BRANCH 23
+BEGIN	BRANCH 24
+Imag
+	[0.474217]
+Device	SWLINE
+Status	1
+END	BRANCH 24
+BEGIN	BRANCH 25
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 25
+BEGIN	BRANCH 26
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 26
+BEGIN	BRANCH 27
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 27
+BEGIN	BRANCH 28
+Imag
+	[-0]
+Device	SWLINE
+Status	1
+END	BRANCH 28
+BEGIN	BRANCH 29
+Imag
+	[-0]
+Device	SWLINE
+Status	1
+END	BRANCH 29
+BEGIN	BRANCH 30
+Imag
+	[-0]
+Device	SWLINE
+Status	1
+END	BRANCH 30
+BEGIN	BRANCH 31
+Imag
+	[-0]
+Device	SWLINE
+Status	1
+END	BRANCH 31
+BEGIN	BRANCH 32
+Imag
+	[0]
+Device	SWLINE
+Status	1
+END	BRANCH 32
+BEGIN	BRANCH 33
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 33
+BEGIN	BRANCH 34
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 34
+BEGIN	BRANCH 35
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 35
+BEGIN	BRANCH 36
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 36
+BEGIN	BRANCH 37
+Imag
+	[0]
+Device	SWLINE
+Status	0
+END	BRANCH 37
+END	BRANCHES
