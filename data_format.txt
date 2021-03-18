@@ -1,0 +1,40 @@
+# Comments lines begin with the symbol #
+
+BEGIN	SNAME
+# Test system name
+END	-999
+
+BEGIN	SBASE [kVA]
+# Power base value in kVA
+END	-999
+
+BEGIN	COSTS
+# Penalty constant and power losses cost ($/MWh)
+END	-999
+
+BEGIN	BUSES
+# ID;BNAME;VBASE [kV]; VMIN [PU]; VMAX [PU]
+END	-999
+
+BEGIN	FAULT_SCENARIO
+# FAULT BUS ID
+# all_1 -- Test fault scenarios for each section
+# Bus id (in each line) -- Creates a scenario wherein the faults are located in the specified buses
+END	-999
+
+BEGIN	BRANCHES
+# ID;FID;TID;DEVICE TYPE
+# LINE - R [OHM], X[OHM], IMAX [A]
+# SWLINE - R [OHM], X[OHM], SWITCHING COST [$/op], IMAX [A], OPERATION TIME [h], INITIAL STATUS [0 - opened / 1 - closed]
+END	-999
+
+BEGIN	SHUNT_DEVICES
+#BUS_ID;TYPE;SHUNT_PROPERTIES
+# SOURCE - Vnom [kV]
+# PQLOAD - P [kW]; Q [kVAR]; PENALTY COST[$/h]; NON-SUPPLIED COST [$/MWh]; curve_name(optional)
+# SW_PQLOAD - P [kW]; Q [kVAR]; PENALTY COST[$/h]; NON-SUPPLIED COST [$/MWh]; SWITCHING COST [$/op]; MAX. SWITCHING OPERATION [un.]; curve_name(optional)
+# ESS - MIN. ACTIVE POWER [kW]; MAX. ACTIVE POWER [kW]; MIN. POWER RATE INJECTION [kW/s]; MAX. POWER RATE INJECTION [kW/s]; MIN. ENERGY [MWh]; MAX. ENERGY[MWh]; STORED ENERGY [MWh]; EFFICIENCY [pu]; AUTO DISCHARGE RATE [pu/h]
+# DSPHDG - MIN. ACTIVE POWER [kW]; MAX. ACTIVE POWER [kW]; MIN. REACTIVE POWER [kVAr]; MAX. REACTIVE POWER [kVAr]; MAX. APPARENT POWER [kVA]; MIN. POWER RATE INJECTION [kW/s]; MAX. POWER RATE INJECTION [kW/s];; POWER GEN. COST [$/MWh]
+# DSPHDG_BS - DG MODE [1 - Conventional DG/ 0 - Black-start mode], NOMINAL VOLT. [kV]; MIN. ACTIVE POWER [kW]; MAX. ACTIVE POWER [kW]; MIN. REACTIVE POWER [kVAr]; MAX. REACTIVE POWER [kVAr]; MAX. APPARENT POWER [kVA]; MIN. POWER RATE INJECTION [kW/s]; MAX. POWER RATE INJECTION [kW/s]; POWER GEN. COST [$/MWh]; START UP TIME [h]
+# NDSPHDG - ACTIVE POWER RATED [kW]; MIN. POWER FACTOR; MAX. POWER FACTOR; APPARENT POWER RATED [kVA]; POWER GEN. COST [$/MWh]; curve_name(optional)
+END	-999
